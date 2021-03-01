@@ -41,7 +41,7 @@ while user_number_choice != comp_gen_num:
     print(message)
     user_number_choice=int(input(("Pick a number between {} to {}:").format(lowered_limit, higher_limit)))
 
-
+    
 if user_number_choice == comp_gen_num:
-     message ="Congratulations, you have won, the number is "+str(comp_gen_num)
+     message ="Congratulations, you have picked the right number, the selected number is "+str(comp_gen_num)
 print(message)
